@@ -1,0 +1,17 @@
+1 . data is instruction of or collection of information i. e called data
+data is stuructured  |unsturetured | raw data
+data is collection of  information 
+
+##typs of data 
+
+1 . stuructured
+2 . unsturetured
+3 . raw
+
+## what is stuructured
+- A DATA IS whath raw and coloumns
+- A data is information fort
+-a  data is in excl | csv |tabel i.e. called stuructured data
+
+## what is unsturetured data
+-A DATA IS 
