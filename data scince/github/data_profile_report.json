@@ -1,0 +1,5216 @@
+{
+    "overview": {
+        "total_rows": 1200,
+        "total_columns": 15,
+        "memory_usage_kb": 181.59,
+        "missing_values": {
+            "PropertyID": 0,
+            "City": 0,
+            "PropertyType": 0,
+            "Area_sqm": 0,
+            "Bedrooms": 0,
+            "Bathrooms": 0,
+            "Age_years": 0,
+            "Distance_to_Center_km": 0,
+            "Has_Garden": 0,
+            "Has_Parking": 0,
+            "Furnished": 0,
+            "Price_USD": 0,
+            "LocalCurrency": 0,
+            "ExchangeRate_to_USD": 0,
+            "Price_Local": 0
+        },
+        "column_types": {
+            "PropertyID": "str",
+            "City": "str",
+            "PropertyType": "str",
+            "Area_sqm": "float64",
+            "Bedrooms": "int64",
+            "Bathrooms": "int64",
+            "Age_years": "int64",
+            "Distance_to_Center_km": "float64",
+            "Has_Garden": "int64",
+            "Has_Parking": "int64",
+            "Furnished": "str",
+            "Price_USD": "float64",
+            "LocalCurrency": "str",
+            "ExchangeRate_to_USD": "float64",
+            "Price_Local": "float64"
+        }
+    },
+    "numerical_profile": {
+        "Area_sqm": {
+            "count": 1200,
+            "mean": 139.78233333333333,
+            "std": 73.88677272608035,
+            "min": 25.0,
+            "q25": 83.07499999999999,
+            "median": 120.7,
+            "q75": 190.925,
+            "max": 416.5,
+            "skew": 0.7843332010673565
+        },
+        "Bedrooms": {
+            "count": 1200,
+            "mean": 3.158333333333333,
+            "std": 1.3582345980137562,
+            "min": 1.0,
+            "q25": 2.0,
+            "median": 3.0,
+            "q75": 5.0,
+            "max": 5.0,
+            "skew": 0.03753428883800252
+        },
+        "Bathrooms": {
+            "count": 1200,
+            "mean": 2.4091666666666667,
+            "std": 1.007105351927223,
+            "min": 1.0,
+            "q25": 2.0,
+            "median": 2.0,
+            "q75": 3.0,
+            "max": 4.0,
+            "skew": 0.10471618543633424
+        },
+        "Age_years": {
+            "count": 1200,
+            "mean": 14.546666666666667,
+            "std": 14.866079593859462,
+            "min": 0.0,
+            "q25": 4.0,
+            "median": 10.0,
+            "q75": 21.0,
+            "max": 100.0,
+            "skew": 1.8114887227212106
+        },
+        "Distance_to_Center_km": {
+            "count": 1200,
+            "mean": 7.196924999999999,
+            "std": 8.055728971903513,
+            "min": 0.1,
+            "q25": 1.77,
+            "median": 4.485,
+            "q75": 9.81,
+            "max": 40.0,
+            "skew": 2.1064955134942576
+        },
+        "Has_Garden": {
+            "count": 1200,
+            "mean": 0.48833333333333334,
+            "std": 0.5000722772336051,
+            "min": 0.0,
+            "q25": 0.0,
+            "median": 0.0,
+            "q75": 1.0,
+            "max": 1.0,
+            "skew": 0.046737818130085894
+        },
+        "Has_Parking": {
+            "count": 1200,
+            "mean": 0.6216666666666667,
+            "std": 0.48517356005354906,
+            "min": 0.0,
+            "q25": 0.0,
+            "median": 1.0,
+            "q75": 1.0,
+            "max": 1.0,
+            "skew": -0.5023760279029572
+        },
+        "Price_USD": {
+            "count": 1200,
+            "mean": 1580964.257,
+            "std": 1291780.2414417337,
+            "min": 92122.65,
+            "q25": 645427.7675000001,
+            "median": 1165455.1400000001,
+            "q75": 2136280.17,
+            "max": 9050210.09,
+            "skew": 1.5227306791406292
+        },
+        "ExchangeRate_to_USD": {
+            "count": 1200,
+            "mean": 38.500233333333334,
+            "std": 57.56035690343889,
+            "min": 0.8,
+            "q25": 0.92,
+            "median": 1.5,
+            "q75": 83.5,
+            "max": 150.0,
+            "skew": 1.0846337655465643
+        },
+        "Price_Local": {
+            "count": 1200,
+            "mean": 50340932.92565834,
+            "std": 113917308.21208408,
+            "min": 182310.25,
+            "q25": 1039500.1325000001,
+            "median": 2446049.63,
+            "q75": 36779881.894999996,
+            "max": 738774289.5,
+            "skew": 3.2928315827743497
+        }
+    },
+    "categorical_profile": {
+        "PropertyID": {
+            "unique_count": 1200,
+            "top_value": "PROP_00001",
+            "top_frequency": 1,
+            "distribution": {
+                "PROP_00001": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00002": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00003": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00004": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00005": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00006": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00007": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00008": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00009": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00010": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00011": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00012": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00013": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00014": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00015": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00016": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00017": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00018": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00019": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00020": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00021": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00022": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00023": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00024": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00025": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00026": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00027": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00028": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00029": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00030": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00031": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00032": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00033": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00034": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00035": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00036": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00037": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00038": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00039": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00040": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00041": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00042": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00043": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00044": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00045": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00046": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00047": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00048": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00049": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00050": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00051": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00052": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00053": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00054": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00055": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00056": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00057": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00058": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00059": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00060": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00061": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00062": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00063": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00064": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00065": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00066": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00067": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00068": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00069": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00070": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00071": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00072": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00073": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00074": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00075": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00076": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00077": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00078": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00079": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00080": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00081": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00082": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00083": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00084": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00085": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00086": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00087": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00088": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00089": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00090": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00091": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00092": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00093": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00094": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00095": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00096": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00097": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00098": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00099": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00100": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00101": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00102": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00103": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00104": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00105": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00106": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00107": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00108": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00109": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00110": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00111": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00112": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00113": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00114": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00115": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00116": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00117": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00118": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00119": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00120": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00121": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00122": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00123": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00124": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00125": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00126": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00127": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00128": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00129": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00130": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00131": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00132": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00133": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00134": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00135": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00136": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00137": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00138": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00139": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00140": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00141": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00142": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00143": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00144": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00145": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00146": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00147": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00148": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00149": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00150": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00151": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00152": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00153": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00154": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00155": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00156": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00157": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00158": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00159": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00160": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00161": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00162": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00163": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00164": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00165": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00166": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00167": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00168": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00169": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00170": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00171": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00172": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00173": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00174": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00175": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00176": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00177": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00178": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00179": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00180": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00181": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00182": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00183": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00184": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00185": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00186": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00187": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00188": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00189": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00190": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00191": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00192": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00193": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00194": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00195": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00196": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00197": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00198": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00199": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00200": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00201": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00202": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00203": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00204": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00205": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00206": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00207": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00208": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00209": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00210": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00211": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00212": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00213": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00214": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00215": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00216": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00217": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00218": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00219": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00220": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00221": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00222": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00223": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00224": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00225": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00226": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00227": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00228": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00229": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00230": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00231": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00232": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00233": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00234": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00235": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00236": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00237": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00238": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00239": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00240": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00241": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00242": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00243": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00244": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00245": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00246": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00247": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00248": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00249": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00250": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00251": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00252": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00253": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00254": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00255": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00256": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00257": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00258": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00259": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00260": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00261": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00262": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00263": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00264": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00265": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00266": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00267": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00268": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00269": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00270": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00271": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00272": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00273": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00274": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00275": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00276": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00277": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00278": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00279": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00280": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00281": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00282": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00283": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00284": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00285": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00286": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00287": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00288": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00289": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00290": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00291": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00292": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00293": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00294": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00295": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00296": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00297": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00298": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00299": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00300": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00301": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00302": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00303": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00304": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00305": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00306": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00307": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00308": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00309": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00310": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00311": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00312": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00313": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00314": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00315": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00316": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00317": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00318": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00319": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00320": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00321": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00322": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00323": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00324": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00325": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00326": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00327": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00328": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00329": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00330": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00331": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00332": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00333": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00334": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00335": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00336": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00337": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00338": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00339": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00340": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00341": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00342": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00343": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00344": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00345": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00346": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00347": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00348": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00349": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00350": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00351": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00352": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00353": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00354": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00355": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00356": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00357": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00358": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00359": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00360": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00361": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00362": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00363": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00364": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00365": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00366": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00367": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00368": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00369": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00370": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00371": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00372": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00373": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00374": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00375": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00376": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00377": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00378": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00379": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00380": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00381": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00382": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00383": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00384": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00385": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00386": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00387": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00388": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00389": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00390": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00391": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00392": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00393": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00394": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00395": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00396": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00397": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00398": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00399": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00400": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00401": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00402": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00403": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00404": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00405": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00406": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00407": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00408": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00409": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00410": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00411": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00412": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00413": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00414": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00415": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00416": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00417": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00418": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00419": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00420": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00421": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00422": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00423": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00424": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00425": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00426": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00427": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00428": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00429": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00430": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00431": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00432": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00433": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00434": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00435": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00436": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00437": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00438": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00439": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00440": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00441": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00442": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00443": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00444": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00445": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00446": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00447": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00448": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00449": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00450": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00451": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00452": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00453": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00454": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00455": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00456": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00457": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00458": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00459": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00460": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00461": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00462": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00463": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00464": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00465": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00466": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00467": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00468": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00469": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00470": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00471": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00472": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00473": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00474": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00475": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00476": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00477": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00478": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00479": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00480": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00481": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00482": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00483": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00484": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00485": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00486": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00487": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00488": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00489": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00490": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00491": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00492": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00493": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00494": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00495": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00496": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00497": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00498": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00499": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00500": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00501": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00502": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00503": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00504": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00505": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00506": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00507": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00508": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00509": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00510": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00511": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00512": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00513": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00514": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00515": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00516": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00517": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00518": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00519": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00520": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00521": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00522": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00523": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00524": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00525": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00526": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00527": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00528": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00529": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00530": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00531": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00532": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00533": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00534": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00535": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00536": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00537": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00538": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00539": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00540": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00541": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00542": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00543": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00544": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00545": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00546": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00547": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00548": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00549": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00550": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00551": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00552": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00553": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00554": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00555": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00556": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00557": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00558": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00559": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00560": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00561": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00562": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00563": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00564": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00565": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00566": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00567": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00568": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00569": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00570": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00571": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00572": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00573": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00574": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00575": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00576": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00577": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00578": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00579": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00580": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00581": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00582": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00583": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00584": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00585": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00586": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00587": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00588": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00589": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00590": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00591": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00592": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00593": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00594": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00595": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00596": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00597": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00598": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00599": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00600": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00601": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00602": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00603": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00604": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00605": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00606": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00607": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00608": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00609": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00610": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00611": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00612": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00613": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00614": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00615": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00616": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00617": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00618": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00619": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00620": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00621": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00622": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00623": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00624": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00625": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00626": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00627": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00628": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00629": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00630": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00631": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00632": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00633": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00634": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00635": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00636": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00637": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00638": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00639": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00640": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00641": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00642": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00643": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00644": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00645": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00646": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00647": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00648": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00649": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00650": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00651": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00652": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00653": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00654": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00655": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00656": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00657": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00658": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00659": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00660": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00661": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00662": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00663": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00664": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00665": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00666": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00667": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00668": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00669": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00670": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00671": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00672": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00673": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00674": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00675": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00676": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00677": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00678": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00679": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00680": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00681": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00682": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00683": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00684": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00685": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00686": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00687": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00688": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00689": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00690": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00691": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00692": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00693": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00694": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00695": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00696": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00697": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00698": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00699": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00700": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00701": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00702": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00703": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00704": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00705": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00706": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00707": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00708": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00709": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00710": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00711": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00712": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00713": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00714": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00715": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00716": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00717": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00718": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00719": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00720": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00721": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00722": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00723": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00724": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00725": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00726": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00727": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00728": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00729": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00730": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00731": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00732": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00733": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00734": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00735": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00736": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00737": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00738": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00739": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00740": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00741": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00742": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00743": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00744": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00745": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00746": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00747": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00748": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00749": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00750": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00751": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00752": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00753": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00754": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00755": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00756": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00757": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00758": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00759": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00760": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00761": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00762": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00763": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00764": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00765": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00766": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00767": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00768": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00769": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00770": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00771": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00772": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00773": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00774": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00775": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00776": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00777": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00778": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00779": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00780": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00781": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00782": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00783": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00784": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00785": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00786": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00787": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00788": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00789": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00790": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00791": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00792": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00793": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00794": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00795": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00796": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00797": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00798": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00799": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00800": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00801": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00802": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00803": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00804": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00805": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00806": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00807": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00808": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00809": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00810": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00811": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00812": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00813": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00814": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00815": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00816": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00817": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00818": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00819": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00820": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00821": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00822": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00823": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00824": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00825": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00826": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00827": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00828": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00829": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00830": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00831": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00832": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00833": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00834": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00835": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00836": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00837": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00838": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00839": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00840": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00841": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00842": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00843": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00844": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00845": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00846": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00847": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00848": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00849": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00850": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00851": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00852": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00853": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00854": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00855": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00856": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00857": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00858": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00859": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00860": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00861": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00862": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00863": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00864": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00865": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00866": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00867": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00868": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00869": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00870": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00871": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00872": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00873": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00874": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00875": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00876": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00877": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00878": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00879": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00880": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00881": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00882": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00883": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00884": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00885": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00886": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00887": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00888": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00889": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00890": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00891": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00892": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00893": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00894": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00895": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00896": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00897": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00898": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00899": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00900": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00901": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00902": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00903": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00904": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00905": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00906": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00907": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00908": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00909": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00910": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00911": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00912": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00913": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00914": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00915": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00916": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00917": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00918": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00919": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00920": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00921": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00922": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00923": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00924": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00925": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00926": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00927": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00928": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00929": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00930": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00931": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00932": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00933": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00934": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00935": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00936": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00937": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00938": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00939": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00940": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00941": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00942": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00943": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00944": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00945": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00946": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00947": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00948": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00949": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00950": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00951": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00952": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00953": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00954": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00955": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00956": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00957": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00958": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00959": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00960": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00961": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00962": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00963": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00964": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00965": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00966": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00967": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00968": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00969": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00970": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00971": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00972": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00973": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00974": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00975": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00976": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00977": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00978": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00979": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00980": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00981": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00982": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00983": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00984": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00985": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00986": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00987": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00988": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00989": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00990": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00991": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00992": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00993": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00994": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00995": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00996": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00997": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00998": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_00999": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01000": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01001": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01002": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01003": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01004": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01005": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01006": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01007": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01008": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01009": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01010": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01011": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01012": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01013": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01014": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01015": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01016": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01017": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01018": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01019": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01020": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01021": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01022": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01023": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01024": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01025": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01026": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01027": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01028": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01029": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01030": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01031": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01032": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01033": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01034": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01035": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01036": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01037": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01038": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01039": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01040": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01041": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01042": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01043": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01044": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01045": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01046": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01047": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01048": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01049": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01050": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01051": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01052": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01053": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01054": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01055": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01056": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01057": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01058": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01059": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01060": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01061": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01062": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01063": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01064": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01065": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01066": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01067": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01068": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01069": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01070": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01071": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01072": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01073": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01074": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01075": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01076": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01077": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01078": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01079": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01080": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01081": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01082": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01083": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01084": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01085": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01086": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01087": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01088": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01089": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01090": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01091": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01092": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01093": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01094": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01095": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01096": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01097": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01098": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01099": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01100": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01101": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01102": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01103": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01104": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01105": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01106": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01107": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01108": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01109": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01110": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01111": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01112": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01113": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01114": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01115": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01116": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01117": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01118": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01119": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01120": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01121": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01122": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01123": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01124": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01125": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01126": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01127": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01128": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01129": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01130": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01131": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01132": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01133": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01134": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01135": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01136": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01137": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01138": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01139": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01140": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01141": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01142": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01143": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01144": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01145": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01146": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01147": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01148": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01149": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01150": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01151": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01152": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01153": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01154": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01155": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01156": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01157": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01158": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01159": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01160": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01161": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01162": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01163": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01164": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01165": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01166": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01167": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01168": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01169": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01170": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01171": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01172": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01173": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01174": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01175": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01176": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01177": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01178": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01179": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01180": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01181": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01182": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01183": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01184": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01185": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01186": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01187": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01188": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01189": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01190": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01191": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01192": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01193": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01194": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01195": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01196": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01197": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01198": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01199": {
+                    "count": 1,
+                    "percentage": 0.08
+                },
+                "PROP_01200": {
+                    "count": 1,
+                    "percentage": 0.08
+                }
+            }
+        },
+        "City": {
+            "unique_count": 6,
+            "top_value": "Sydney",
+            "top_frequency": 217,
+            "distribution": {
+                "Sydney": {
+                    "count": 217,
+                    "percentage": 18.08
+                },
+                "New York": {
+                    "count": 215,
+                    "percentage": 17.92
+                },
+                "Tokyo": {
+                    "count": 197,
+                    "percentage": 16.42
+                },
+                "London": {
+                    "count": 193,
+                    "percentage": 16.08
+                },
+                "Paris": {
+                    "count": 189,
+                    "percentage": 15.75
+                },
+                "Mumbai": {
+                    "count": 189,
+                    "percentage": 15.75
+                }
+            }
+        },
+        "PropertyType": {
+            "unique_count": 3,
+            "top_value": "Apartment",
+            "top_frequency": 610,
+            "distribution": {
+                "Apartment": {
+                    "count": 610,
+                    "percentage": 50.83
+                },
+                "House": {
+                    "count": 481,
+                    "percentage": 40.08
+                },
+                "Penthouse": {
+                    "count": 109,
+                    "percentage": 9.08
+                }
+            }
+        },
+        "Furnished": {
+            "unique_count": 3,
+            "top_value": "Partially",
+            "top_frequency": 467,
+            "distribution": {
+                "Partially": {
+                    "count": 467,
+                    "percentage": 38.92
+                },
+                "Unfurnished": {
+                    "count": 371,
+                    "percentage": 30.92
+                },
+                "Fully": {
+                    "count": 362,
+                    "percentage": 30.17
+                }
+            }
+        },
+        "LocalCurrency": {
+            "unique_count": 6,
+            "top_value": "AUD",
+            "top_frequency": 217,
+            "distribution": {
+                "AUD": {
+                    "count": 217,
+                    "percentage": 18.08
+                },
+                "USD": {
+                    "count": 215,
+                    "percentage": 17.92
+                },
+                "JPY": {
+                    "count": 197,
+                    "percentage": 16.42
+                },
+                "GBP": {
+                    "count": 193,
+                    "percentage": 16.08
+                },
+                "EUR": {
+                    "count": 189,
+                    "percentage": 15.75
+                },
+                "INR": {
+                    "count": 189,
+                    "percentage": 15.75
+                }
+            }
+        }
+    },
+    "correlation_matrix": {
+        "Area_sqm": {
+            "Area_sqm": 1.0,
+            "Bedrooms": 0.9014,
+            "Bathrooms": 0.8169,
+            "Age_years": 0.0324,
+            "Distance_to_Center_km": 0.2271,
+            "Has_Garden": 0.579,
+            "Has_Parking": 0.0314,
+            "Price_USD": 0.7923,
+            "Price_Local": 0.306
+        },
+        "Bedrooms": {
+            "Area_sqm": 0.9014,
+            "Bedrooms": 1.0,
+            "Bathrooms": 0.9153,
+            "Age_years": 0.0402,
+            "Distance_to_Center_km": 0.2197,
+            "Has_Garden": 0.57,
+            "Has_Parking": 0.0239,
+            "Price_USD": 0.7354,
+            "Price_Local": 0.276
+        },
+        "Bathrooms": {
+            "Area_sqm": 0.8169,
+            "Bedrooms": 0.9153,
+            "Bathrooms": 1.0,
+            "Age_years": 0.0338,
+            "Distance_to_Center_km": 0.1936,
+            "Has_Garden": 0.5138,
+            "Has_Parking": 0.0235,
+            "Price_USD": 0.6798,
+            "Price_Local": 0.2652
+        },
+        "Age_years": {
+            "Area_sqm": 0.0324,
+            "Bedrooms": 0.0402,
+            "Bathrooms": 0.0338,
+            "Age_years": 1.0,
+            "Distance_to_Center_km": 0.0399,
+            "Has_Garden": 0.0014,
+            "Has_Parking": 0.0173,
+            "Price_USD": -0.0802,
+            "Price_Local": -0.016
+        },
+        "Distance_to_Center_km": {
+            "Area_sqm": 0.2271,
+            "Bedrooms": 0.2197,
+            "Bathrooms": 0.1936,
+            "Age_years": 0.0399,
+            "Distance_to_Center_km": 1.0,
+            "Has_Garden": 0.359,
+            "Has_Parking": -0.0206,
+            "Price_USD": -0.1088,
+            "Price_Local": -0.0536
+        },
+        "Has_Garden": {
+            "Area_sqm": 0.579,
+            "Bedrooms": 0.57,
+            "Bathrooms": 0.5138,
+            "Age_years": 0.0014,
+            "Distance_to_Center_km": 0.359,
+            "Has_Garden": 1.0,
+            "Has_Parking": -0.0045,
+            "Price_USD": 0.407,
+            "Price_Local": 0.1493
+        },
+        "Has_Parking": {
+            "Area_sqm": 0.0314,
+            "Bedrooms": 0.0239,
+            "Bathrooms": 0.0235,
+            "Age_years": 0.0173,
+            "Distance_to_Center_km": -0.0206,
+            "Has_Garden": -0.0045,
+            "Has_Parking": 1.0,
+            "Price_USD": 0.0703,
+            "Price_Local": 0.02
+        },
+        "Price_USD": {
+            "Area_sqm": 0.7923,
+            "Bedrooms": 0.7354,
+            "Bathrooms": 0.6798,
+            "Age_years": -0.0802,
+            "Distance_to_Center_km": -0.1088,
+            "Has_Garden": 0.407,
+            "Has_Parking": 0.0703,
+            "Price_USD": 1.0,
+            "Price_Local": 0.2167
+        },
+        "Price_Local": {
+            "Area_sqm": 0.306,
+            "Bedrooms": 0.276,
+            "Bathrooms": 0.2652,
+            "Age_years": -0.016,
+            "Distance_to_Center_km": -0.0536,
+            "Has_Garden": 0.1493,
+            "Has_Parking": 0.02,
+            "Price_USD": 0.2167,
+            "Price_Local": 1.0
+        }
+    },
+    "business_insights": {
+        "avg_price_by_city": {
+            "London": 1719371.11,
+            "Mumbai": 718043.3,
+            "New York": 2208226.03,
+            "Paris": 1690363.04,
+            "Sydney": 1466617.14,
+            "Tokyo": 1609670.91
+        },
+        "avg_price_by_type": {
+            "Apartment": 800453.24,
+            "House": 2280185.26,
+            "Penthouse": 2863408.45
+        },
+        "city_price_stats": {
+            "London": {
+                "avg_price_usd": 1719371.1142487044,
+                "avg_area_sqm": 135.17150259067355,
+                "avg_price_per_sqm": 12138.169342346233,
+                "total_properties": 193
+            },
+            "Mumbai": {
+                "avg_price_usd": 718043.2967195766,
+                "avg_area_sqm": 141.83492063492065,
+                "avg_price_per_sqm": 4639.818220694915,
+                "total_properties": 189
+            },
+            "New York": {
+                "avg_price_usd": 2208226.03,
+                "avg_area_sqm": 147.08883720930234,
+                "avg_price_per_sqm": 13922.317513150461,
+                "total_properties": 215
+            },
+            "Paris": {
+                "avg_price_usd": 1690363.035026455,
+                "avg_area_sqm": 133.82486772486774,
+                "avg_price_per_sqm": 11764.45569921209,
+                "total_properties": 189
+            },
+            "Sydney": {
+                "avg_price_usd": 1466617.143087558,
+                "avg_area_sqm": 137.1815668202765,
+                "avg_price_per_sqm": 9850.129766496284,
+                "total_properties": 217
+            },
+            "Tokyo": {
+                "avg_price_usd": 1609670.914467005,
+                "avg_area_sqm": 142.9365482233503,
+                "avg_price_per_sqm": 10393.529766076852,
+                "total_properties": 197
+            }
+        }
+    }
+}
